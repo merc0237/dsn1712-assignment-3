@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+background-color: #000;
+color: #fff;
+}
+
+.wrapper {
+max-width: 940px;
+text-align: center;
+}
+
+/* Hero Section */
+#hero {
+height: 600px;
+background-image: url(../images/hands-typing.jpg);
+background-size: 100%;
+filter: grayscale(0.7);
+object-position: center;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h1{
+    max-width: 60%;
+    background-color: rgba(0, 0, 0, 50%);
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+}
+
+/* About Me Section */
+
+
+
+
+/* Services Section */
+
+
+
+
+/* My Work Section */
+
+
+
+
+/* Footer */
