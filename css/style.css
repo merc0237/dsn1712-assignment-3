@@ -13,14 +13,20 @@ max-width: 940px;
 text-align: center;
 }
 
-nav ul {
+header {
 list-style: none;
 display: flex;
 flex-direction: row;
+flex-wrap: nowrap;
+}
+
+.header {
+display: flex;
 align-items: center;
-margin-left: 850px;
+}
 
-
+.header .top-nav:nth-child(3) {
+margin: 100%;
 }
 
 nav ul li {
@@ -50,7 +56,17 @@ h1{
 }
 
 /* About Me Section */
+#about-me {
+    background-color: #fafafa;
+    display: grid;
+    grid-template-columns: 66.67fr 33.33fr;
+    text-align: left;
+}
 
+.image-2 {
+    object-position: right;
+    display: grid;
+}
 
 
 
