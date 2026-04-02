@@ -13,6 +13,21 @@ max-width: 940px;
 text-align: center;
 }
 
+nav ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 850px;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
 /* Hero Section */
 #hero {
 height: 600px;
