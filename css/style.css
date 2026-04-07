@@ -124,9 +124,14 @@ article {
 
 .artwork {
     display: grid;
-    
+    grid-template-columns: 1fr 1fr fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 
-
 /* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
